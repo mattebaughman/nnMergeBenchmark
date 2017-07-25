@@ -1,3 +1,4 @@
+wget https://raw.githubusercontent.com/mattebaughman/nnMergeBenchmark/master/train.patch
 patch < train.patch
 python scripts/preprocess.py \
 --input_txt data/tiny-shakespeare.txt \
